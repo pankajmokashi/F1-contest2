@@ -1,0 +1,193 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:ital,wght@0,300;0,400;1,200;1,300&family=Public+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    background: #000000;
+    color: white;
+}
+.page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1040px;
+    background: #1F1F1F;
+}
+.pagesection{
+    width: 923px;
+    /* border: 1px solid red; */
+    margin: 20px 0;
+}
+.menu{
+    display: none;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+nav > input{
+    width: 300px;
+    background: #262626;
+    border: none;
+    color: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 10px;
+}
+nav > button{
+    background: #262626;
+    font-weight: 600;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+
+.about-us-container{
+    display: flex;
+    flex-direction: column;
+    background: #262626;
+    border: none;
+    border-radius: 25px;
+    padding: 25px 25px 25px 40px;
+    gap: 15px;
+}
+.about-us-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-right: 70px;
+}
+.img-text{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    gap: 10px;
+}
+.img-text .img1{
+    display: flex;
+    align-items: center;
+    gap: 20px
+}
+.text{
+    font-size: 18px;
+    letter-spacing: 0.9px;
+}
+.img-text img{
+    width: 60px;
+}
+.clock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding-bottom: 50px;
+}
+.clock img{
+    width: 150px;
+}
+.clock button{
+    color: black;
+    background-color: #FECB03;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+
+
+
+.categories-container{
+    margin: 10px 0 0 30px;
+}
+.cards{
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+.card1 > .text{
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.8)
+}
+
+.card1{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border: 2px solid #262626;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+.card1 > h3{
+    color: #C4C4C4;
+}
+.card1 button{
+    align-self: flex-end;
+    color: black;
+    background-color: #FECB03;
+    padding: 10px 15px;
+    border:none;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+
+
+.footer-conatiner{
+    display: flex;
+    background: #262626;
+    padding: 35px 0;
+    border-radius: 15px;
+    justify-content: space-around;
+}
+
+.footer-1{
+    width: 280px;
+}
+.footer-1 > div{
+    margin-top: 15px;
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.8);
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 5px;
+}
+a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+input:hover{
+    border: 1px solid black;
+}
+input:active{
+    scale: 1.1;
+}
+button:hover{
+    cursor: pointer;
+}
+button:active{
+    scale: 1.1;
+}
